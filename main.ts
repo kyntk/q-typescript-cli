@@ -1,5 +1,7 @@
+import { getUser } from './lib/api'
+
 const main = () => {
-  console.log('Hello World')
+  getUser()
 }
 
 main()
